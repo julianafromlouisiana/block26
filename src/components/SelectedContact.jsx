@@ -28,7 +28,7 @@ export default function SelectedContact({
         <div>
         <h1>{contact?.name}</h1>
         <p>{contact?.email}</p>
-        <p>{contact?.address}</p>
+        <p>{contact?.address.city}</p>
         <p>{contact?.phone}</p>
         </div>
     );

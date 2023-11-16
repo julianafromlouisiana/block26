@@ -10,7 +10,7 @@ import "./App.css";
     
 
   return (
-   <>{selectedContactId ? <p>Selecteed Contact</p> : <ContactList setSelectedContactId={setSelectedContactId}/>}</>
+   <>{selectedContactId ? <SelectedContact selectedContactId={selectedContactId} /> : <ContactList setSelectedContactId={setSelectedContactId}/>}</>
   
   );
     }
